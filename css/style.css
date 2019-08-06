@@ -1353,7 +1353,7 @@ pre {
   .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6; }
-  .table tbody + tbody {
+  .table t + tbody {
     border-top: 2px solid #dee2e6; }
   .table .table {
     background-color: #fff; }
@@ -7269,7 +7269,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #121212;
+  background: #000201;
   font-size: 18px;
   line-height: 1.8;
   font-weight: 400;
@@ -8115,7 +8115,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #121212;
+  background: #000000;
   padding: 8em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
