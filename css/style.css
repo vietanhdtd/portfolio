@@ -8001,7 +8001,7 @@ header {
   position: relative;
   overflow: visible;
   border-radius: 30px; }
-  .progress-bar:after {
+  .:after {
     position: absolute;
     top: -3px;
     right: 0;
@@ -8752,8 +8752,8 @@ textarea.form-control {
 
 #errormessage {
   color: red;
-  display: none;
-  border: 1px solid red;
+  /* display: none; */
+  /* border: 1px solid red; */
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -8865,3 +8865,46 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .skillbar {
+      position:relative;
+      display:block;
+      /* margin-bottom:15px; */
+      width:100%;
+      /* background:#eee; */
+      height:5px;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      -webkit-transition:0.4s linear;
+      -moz-transition:0.4s linear;
+      -ms-transition:0.4s linear;
+      -o-transition:0.4s linear;
+      transition:0.4s linear;
+      -webkit-transition-property:width, background-color;
+      -moz-transition-property:width, background-color;
+      -ms-transition-property:width, background-color;
+      -o-transition-property:width, background-color;
+      transition-property:width, background-color;
+    }
+    
+    
+    .skillbar-bar {
+      height:5px;
+      width:0px;
+      background:#000000;
+      border-radius:3px;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+    }
+    
+    .skill-bar-percent {
+      position:absolute;
+      right:10px;
+      top:0;
+      font-size:11px;
+      height:35px;
+      line-height:35px;
+      color:#ffffff;
+      color:rgba(0, 0, 0, 0.4);
+    }
