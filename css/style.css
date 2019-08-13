@@ -8752,7 +8752,7 @@ textarea.form-control {
 
 #errormessage {
   color: red;
-  /* display: none; */
+  display: none;
   /* border: 1px solid red; */
   text-align: center;
   padding: 15px;
